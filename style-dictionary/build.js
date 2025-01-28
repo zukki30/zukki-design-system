@@ -26,7 +26,7 @@ const styleDictionary = StyleDictionary.extend({
       ],
       options: {
         showFileHeader: false,
-        outputReferences: false,
+        outputReferences: false
       },
       files: [
         {
@@ -43,7 +43,6 @@ styleDictionary.registerTransform({
   name: 'size/px',
   type: 'value',
   matcher: (token) => {
-    console.log(token);
     return (
       token.name.includes('border-radius') ||
       token.name.includes('spacing')
