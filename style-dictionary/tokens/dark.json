@@ -658,10 +658,6 @@
         "type": "color"
       }
     },
-    "カラー": {
-      "value": "#ffffff",
-      "type": "color"
-    },
     "grey": {
       "0": {
         "value": "#000000",
