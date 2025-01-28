@@ -1,0 +1,20 @@
+{
+  "name": "zukki-design-system",
+  "version": "1.0.0",
+  "description": "デザインシステム",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tokens": "node style-dictionary/build.js",
+    "token:transform": "token-transformer ./figma/tokens.json ./style-dictionary/tokens.json --expandShadow"
+  },
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "20.11.1",
+    "npm": "10.2.4"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.2",
+    "token-transformer": "^0.0.33"
+  }
+}
